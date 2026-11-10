@@ -10,7 +10,7 @@ from siamese_unet import SiameseUNet
 
 # Configuration
 BATCH_SIZE = 2
-EPOCHS = 1
+EPOCHS = 20
 LEARNING_RATE = 0.001
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
